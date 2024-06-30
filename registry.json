@@ -4780,5 +4780,36 @@
       "rpc": "https://rpc.zklink.io",
       "documentation": "https://docs.zklink.io"
     }
+  },
+  {
+    "id": "mayachain",
+    "name": "Maya Protocol",
+    "coinId": 931,
+    "symbol": "CACAO",
+    "decimals": 10,
+    "blockchain": "Mayachain",
+    "derivation": [
+      {
+        "path": "m/44'/931'/0'/0/0"
+      }
+    ],
+    "curve": "secp256k1",
+    "publicKeyType": "secp256k1",
+    "hrp": "maya",
+    "addressHasher": "sha256ripemd",
+    "chainId": "mayachain-mainnet-v1",
+    "explorer": {
+      "url": "https://mayascan.org",
+      "txPath": "/tx/",
+      "accountPath": "/address/",
+      "sampleTx": "5B8A017DDDA6C33CD86BA6FB586A2381D462B9B260AA72F0E189F94C2A394EE5",
+      "sampleAccount": "maya1xq3eaf70pdw4wl8esn0kyuxpnunprs05tgppzu"
+    },
+    "info": {
+      "url": "https://mayaprotocol.com",
+      "source": "https://gitlab.com/matachain/mayanode",
+      "rpc": "https://seed.thorchain.info",
+      "documentation": "https://docs.mayaprotocol.com"
+    }
   }
 ]
