@@ -10,6 +10,7 @@ mod dydx;
 mod ethereum;
 mod greenfield;
 mod internet_computer;
+mod mayachain;
 mod native_evmos;
 mod native_injective;
 mod solana;
