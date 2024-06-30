@@ -16,6 +16,7 @@ pub enum BlockchainType {
     Ethereum,
     Greenfield,
     InternetComputer,
+    Mayachain,
     NativeEvmos,
     NativeInjective,
     Ronin,
