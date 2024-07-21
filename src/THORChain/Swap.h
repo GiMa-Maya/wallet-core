@@ -30,16 +30,18 @@ enum Chain {
     /// extra supported blockchains on MAYA
     MAYA = 10,
     DASH = 11,
-    ARB = 12
+    KUJI = 12,
+    ARB = 13
 };
 
 // MAYAChain available vaults
- struct MAYAVaults {
-     std::string BTC;
-     std::string ETH;
-     std::string THOR;
-     std::string DASH;
-     std::string ARB;
+struct MAYAVaults {
+    std::string BTC;
+    std::string ETH;
+    std::string THOR;
+    std::string DASH;
+    std::string KUJI;
+    std::string ARB;
  };
 
 // MAYAChain available vault addresses
@@ -48,7 +50,8 @@ const MAYAVaults MAYAVaultAddress = {
     "0xe499e7b91d1349a861d09d847551dd9ce9508146",
     "thor1zz4mgm2yl5cfhwp5rhgvdyy62z737sm8n9dyv2",
     "XcCzLaeJJgPmMT39DZsAHemrVMnHtZw7Xd",
-    "ARB??",
+    "kujira1np80g50y8ydwnwh66nqxj39yhc70s9w5vgs7uv",
+    "0xb9ac6d689a18be4588f348301208e40f57a868d4",
  }; 
 
 using SwapErrorCode = int;
