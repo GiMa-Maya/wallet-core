@@ -27,7 +27,29 @@ enum Chain {
     ATOM = 7,
     AVAX = 8,
     BSC = 9,
+    /// extra supported blockchains on MAYA
+    MAYA = 10,
+    DASH = 11,
+    ARB = 12
 };
+
+// MAYAChain available vaults
+ struct MAYAVaults {
+     std::string BTC;
+     std::string ETH;
+     std::string THOR;
+     std::string DASH;
+     std::string ARB;
+ };
+
+// MAYAChain available vault addresses
+const MAYAVaults MAYAVaultAddress = {
+    "bc1qzz4mgm2yl5cfhwp5rhgvdyy62z737sm8rc25ac",
+    "0xe499e7b91d1349a861d09d847551dd9ce9508146",
+    "thor1zz4mgm2yl5cfhwp5rhgvdyy62z737sm8n9dyv2",
+    "XcCzLaeJJgPmMT39DZsAHemrVMnHtZw7Xd",
+    "ARB??",
+ }; 
 
 using SwapErrorCode = int;
 
@@ -62,6 +84,7 @@ class SwapBuilder {
     SwapBundled buildEth(const uint256_t& amount, const std::string& memo);
     SwapBundled buildAtom(const uint256_t& amount, const std::string& memo);
     SwapBundled buildRune(const uint256_t& amount, const std::string& memo);
+    SwapBundled buildCacao(const uint256_t& amount, const std::string& memo);
 
 public:
     SwapBuilder() noexcept = default;
