@@ -4822,7 +4822,7 @@
   {
     "id": "mayachain",
     "name": "Maya Protocol",
-    "coinId": 931,
+    "coinId": 10000931,
     "symbol": "CACAO",
     "decimals": 10,
     "blockchain": "Mayachain",
@@ -4845,8 +4845,8 @@
     },
     "info": {
       "url": "https://mayaprotocol.com",
-      "source": "https://gitlab.com/matachain/mayanode",
-      "rpc": "https://seed.thorchain.info",
+      "source": "https://gitlab.com/mayachain/mayanode",
+      "rpc": "https://tendermint.mayachain.info",
       "documentation": "https://docs.mayaprotocol.com"
     }
   }
