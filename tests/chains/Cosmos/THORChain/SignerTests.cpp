@@ -3,6 +3,7 @@
 // Copyright © 2017 Trust Wallet.
 
 #include "proto/Cosmos.pb.h"
+#include "MAYAChain/Signer.h"
 #include "Coin.h"
 #include "HexCoding.h"
 #include "Bech32Address.h"
