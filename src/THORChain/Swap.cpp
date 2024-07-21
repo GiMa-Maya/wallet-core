@@ -48,6 +48,7 @@ bool isMAYAVaultAddresse(std::string vault) {
         vault == MAYAVaultAddress.ETH ||
         vault == MAYAVaultAddress.THOR ||
         vault == MAYAVaultAddress.DASH ||
+        vault == MAYAVaultAddress.KUJI ||
         vault == MAYAVaultAddress.ARB){
          return true;
      }
@@ -92,6 +93,8 @@ bool isMAYAVaultAddresse(std::string vault) {
          return TWCoinTypeTHORChain;
      case Chain::DASH:
          return TWCoinTypeDash;
+     case Chain::ARB:
+         return TWCoinTypeKujira;
      case Chain::ARB:
          return TWCoinTypeArbitrum;
      case Chain::MAYA:
@@ -144,6 +147,8 @@ std::string chainNameMAYA(Chain chain) {
          return "THOR";
      case Chain::DASH:
          return "DASH";
+     case Chain::KUJI:
+         return "KUJI";
      case Chain::ARB:
          return "ARB";
      default:
@@ -191,6 +196,7 @@ SwapBundled SwapBuilder::build(bool shortened) {
     case Chain::BNB:
         return buildBinance(mFromAsset, fromAmountNum, memo);
     case Chain::ATOM:
+    case Chain::KUJI:
         return buildAtom(fromAmountNum, memo);
     case Chain::ETH:
     case Chain::AVAX:
