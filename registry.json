@@ -4821,7 +4821,7 @@
   },
   {
     "id": "mayachain",
-    "name": "Maya Protocol",
+    "name": "MAYAChain",
     "coinId": 10000931,
     "symbol": "CACAO",
     "decimals": 10,
@@ -4840,8 +4840,8 @@
       "url": "https://mayascan.org",
       "txPath": "/tx/",
       "accountPath": "/address/",
-      "sampleTx": "5B8A017DDDA6C33CD86BA6FB586A2381D462B9B260AA72F0E189F94C2A394EE5",
-      "sampleAccount": "maya1xq3eaf70pdw4wl8esn0kyuxpnunprs05tgppzu"
+      "sampleTx": "908E8634B357FE5BAB92C0304D3022F9B2A5437A11B459E3C3226EA8E66EC337",
+      "sampleAccount": "maya127ywj4hgff8kskkg5nsa5rkt3vu2gvz3f7m5my"
     },
     "info": {
       "url": "https://mayaprotocol.com",
